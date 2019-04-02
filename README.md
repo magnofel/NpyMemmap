@@ -12,3 +12,9 @@ memmap.WriteToStream(arr);
 //reading memmap by index
 var val = memmap[0];
 ~~~~
+Open in numpy:
+~~~~
+>>> import numpy as np
+>>> np.memmap("test.mmap",np.float64)
+memmap([0.1, 0.2, 0.3])
+~~~~
